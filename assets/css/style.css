@@ -509,6 +509,7 @@ h4 {
     border: 2px solid rgb(132, 131, 131);
     border-radius: .5rem;
     background-color: transparent;
+    margin-bottom: 10rem;
 }
 .btnMoreProjects:hover {
     border: 2px solid tomato;
@@ -549,9 +550,7 @@ h4 {
 } 
 
 
-
-
-
+ 
 #constructionProFullData{
     display: none;
 }
