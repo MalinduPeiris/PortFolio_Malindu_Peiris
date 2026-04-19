@@ -491,12 +491,13 @@ h4 {
 }
 
 .closeThisBtn:hover {
-     border: 2px solid tomato;
+    border: 2px solid tomato;
     color: tomato;
 }
 
 .btnGithub{
     text-decoration: none;
+    font-size: 13px;
     width: 95%;
     padding: 5px 10px 5px 10px;
     height: 130%;
@@ -518,7 +519,14 @@ h4 {
     border-radius: .5rem;
     background-color: transparent;
 }
-
+.btnMoreProjects:hover {
+    border: 2px solid tomato;
+    color: tomato;
+    box-shadow: 0 0 10px tomato;
+}
+#hide {
+    display: none;
+}
 
 
 
