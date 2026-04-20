@@ -71,7 +71,8 @@ h4 {
     left: 0;
     background-color: #1c1c1d;
     width: 100%;
-    z-index: 1030;
+    z-index: 3;
+    /* margin-bottom: 12remx; */
     margin-left: .06rem;
 }
 
@@ -117,7 +118,7 @@ h4 {
 
 .aboutMePart {
     background-color: #0a0a0a;
-    margin-top: -.5rem;
+    margin-top: -.5rem; 
 }
 
 .openToWorkEle {
@@ -127,6 +128,7 @@ h4 {
     background-color: #482617;
     text-align: center;
     border-radius: 1rem;
+    margin-top: 3rem;
     border: 20px;
     border-color: #e0e0e0;
 }
@@ -515,7 +517,7 @@ h4 {
 .viewMoreThisBtn {
     /* margin-right: 10rem; */
     text-align: center;
-    width: 60%;
+    width: 100%;
     height: 130%;
     color: white;
     border: 2px solid rgb(132, 131, 131);
@@ -561,8 +563,8 @@ h4 {
 }
 
 .btnMoreProjects {
-    width: 150px;
-    height: 40px;
+    width: 100%;
+    height: fit-content;
     color: white;
     border: 2px solid rgb(132, 131, 131);
     border-radius: .5rem;
@@ -582,7 +584,7 @@ h4 {
 
 
 
-#project1Section{
+/* #project1Section{
     display: none;
 } 
 #project2Section{
@@ -605,9 +607,34 @@ h4 {
 } 
 #project8Section{
     display: none;
+}  */
+
+
+#project1Section{
+    display: grid;
 } 
-
-
+#project2Section{
+    display: grid;
+} 
+#project3Section{
+    display: grid;
+} 
+#project4Section{
+    display: grid;
+} 
+#project5Section{
+    display: grid;
+} 
+#project6Section{
+    display: grid;
+} 
+#project7Section{
+    display: grid;
+} 
+#project8Section{
+    display: grid;
+} 
+ 
  
 #constructionProFullData{
     display: none;
