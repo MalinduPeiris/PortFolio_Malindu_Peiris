@@ -26,6 +26,7 @@ h4 {
     position: fixed;
     background-color: #1c1c1d;
     width: 100%;
+    /* margin-left: -.67rem; */
     margin-left: -.67rem;
 }
 
@@ -489,9 +490,9 @@ h4 {
 .btnGithub{
     text-decoration: none;
     font-size: 13px;
-    width: 95%;
+    width: 100%;
     padding: 5px 10px 5px 10px;
-    height: 130%;
+    height: fit-content;
     color: white;
     border: 2px solid rgb(132, 131, 131);
     border-radius: .5rem;
@@ -509,7 +510,7 @@ h4 {
     border: 2px solid rgb(132, 131, 131);
     border-radius: .5rem;
     background-color: transparent;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 .btnMoreProjects:hover {
     border: 2px solid tomato;
