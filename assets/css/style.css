@@ -12,58 +12,12 @@ h4 {
     color: white;
 }
 
-
-
 /* nav styles set */
 
 #navSection {
     position: relative;
     background-color: #111;
-    /* width: 100%; */
 }
-/* 
-.navCont {
-    position: fixed;
-    background-color: #1c1c1d;
-    width: 100%;
-    margin-left: 1rem;
-    margin-left: -.67rem;
-}
-
-.navNameIcon {
-    color: #dc652f;
-}
-
-.navNameIcon:hover {
-    color: #dc652f;
-    transform: 0.3s;
-}
-
-.navName {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-}
-
-.navitems {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(236, 236, 236);
-}
-
-.navitems:hover {
-    color: #ea6528;
-}
-
-.navHr {
-    color: #ea6528;
-    width: 100%;
-    margin-bottom: .4rem;
-}
-
-#navSection {
-    position: relative;
-    background-color: #111;
-    width: 100%;
-} */
 
 .navCont {
     position: fixed;
@@ -72,7 +26,6 @@ h4 {
     background-color: #1c1c1d;
     width: 100%;
     z-index: 3;
-    /* margin-bottom: 12remx; */
     margin-left: .06rem;
 }
 
@@ -109,10 +62,7 @@ h4 {
     opacity: 1;
     position: fixed;
     top: 56px;
-    /* z-index: 1030; */
 }
-
-
 
 /* Body about me  */
 
@@ -160,10 +110,6 @@ h4 {
     background-color: rgba(111, 114, 113, 0.351);
 }
 
-/* .divImg{
-    background-color: white;
-    border-radius: 100rem;
-} */
 .profilePic {
     width: 100%;
     height: 60%;
@@ -213,9 +159,6 @@ h4 {
     margin-top: -.2rem;
 }
 
-
-
-
 .btnCv {
     cursor: pointer;
     --c: #db4e2b;
@@ -260,29 +203,12 @@ h4 {
     transform: translateY(0) scale(2);
 }
 
-.btnCv span:nth-child(1) {
-    --n: 1;
-}
-
-.btnCv span:nth-child(2) {
-    --n: 2;
-}
-
-.btnCv span:nth-child(3) {
-    --n: 3;
-}
-
-.btnCv span:nth-child(4) {
-    --n: 4;
-}
-
-
-
-
-
+.btnCv span:nth-child(1) { --n: 1; }
+.btnCv span:nth-child(2) { --n: 2; }
+.btnCv span:nth-child(3) { --n: 3; }
+.btnCv span:nth-child(4) { --n: 4; }
 
 /* About Me Section */
-
 .hTagWhoIam {
     color: tomato;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -307,16 +233,12 @@ h4 {
     margin-left: .8rem;
 }
 
-/*  */
 .hrtagForSperateParts {
     size: 10px;
     color: #636363;
 }
 
-
 /* TechStack Cards */
-
-
 .techStackCards {
     display: grid;
     padding: 2px 2px 2px 2px;
@@ -324,8 +246,8 @@ h4 {
     color: #9a9898;
     background: #222121;
     border-radius: .5rem;
-    width: 100px;
-    height:auto;
+    width: 17%;
+    height: 5.5rem;
     margin-right: 1.6rem;
     margin-top: 1.2rem;
     justify-items: center;
@@ -344,7 +266,6 @@ h4 {
 }
 
 #viewMoreBtn {
-    /* margin-right: 10rem; */
     width: 70%;
     height: 130%;
     color: white;
@@ -381,15 +302,12 @@ h4 {
     color: tomato;
 }
 
-
 #techStack2ndSection,
 #techStack3rdSection {
     display: none;
 }
 
-
 /*  Experience set */
-
 .expeDot {
     width: 16px;
     height: 16px;
@@ -434,12 +352,11 @@ h4 {
     margin-top: .28rem;
 }
 
-
 /* Service Set */
 .serviceCardDivs {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 33%;
+    width: 100%;
     height: fit-content;
     margin-right: .3rem;
     background: #111;
@@ -451,28 +368,24 @@ h4 {
 
 .serviceCardDivs:hover {
     border-color: tomato;
-    /* transform: translateY(-.2rem);  */
 }
 
 .serviceSvgs {
     margin-left: 1rem;
 }
 
-
 /* Project Set */
-
 .projectRows {
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
     margin-bottom: 8px;
-    
 }
 
 .projectCardDivs {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 50%;
+    width: 100%;
     height: fit-content;
     margin-right: 1.5rem;
     background: #111;
@@ -481,14 +394,12 @@ h4 {
     padding: 20px 16px;
     transition: border-color 0.2s;
 }
- 
+
 .projectCardDivs:hover  {
     border-color: tomato;
-    /* width: 53%; */
     height: fit-content;
     transition: 1.2s;
     box-shadow: 0 0 15px tomato;
-    /* transform: translateY(-.2rem);  */
 } 
 
 .projectCardImages {
@@ -513,9 +424,7 @@ h4 {
     margin-top: .5rem;
 }
 
-
 .viewMoreThisBtn {
-    /* margin-right: 10rem; */
     text-align: center;
     width: 100%;
     height: 130%;
@@ -532,7 +441,6 @@ h4 {
 
 .closeThisBtn {
     display: none;
-    /* margin-right: 10rem; */
     width: 60%;
     height: 130%;
     color: white;
@@ -580,162 +488,23 @@ h4 {
     display: none;
 }
 
-
-
-
-
-/* #project1Section{
-    display: none;
-} 
-#project2Section{
-    display: none;
-} 
-#project3Section{
-    display: none;
-} 
-#project4Section{
-    display: none;
-} 
-#project5Section{
-    display: none;
-} 
-#project6Section{
-    display: none;
-} 
-#project7Section{
-    display: none;
-} 
-#project8Section{
-    display: none;
-}  */
-
-
-#project1Section{
-    display: grid;
-} 
-#project2Section{
-    display: grid;
-} 
-#project3Section{
-    display: grid;
-} 
-#project4Section{
-    display: grid;
-} 
-#project5Section{
-    display: grid;
-} 
-#project6Section{
-    display: grid;
-} 
-#project7Section{
-    display: grid;
-} 
-#project8Section{
-    display: grid;
-} 
- 
- 
-#constructionProFullData{
-    display: none;
-}
-#travelProFullData{
-    display: none;
-}
-#skyLinkProFullData{
-    display: none;
-}
-#hotelProFullData{
-    display: none;
-}
-#weatherProFullData{
-    display: none;
-}
-#pharmacyProFullData{
-    display: none;
-}
-#clothifyProFullData{
-    display: none;
-}
-#mealProFullData{
-    display: none;
-}
-#clothifyProFullData{
-    display: none;
-}
-
-
-#hideProjectsBtn{
-    display: none;
-}
-
-#moreProjectsSection{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#project1Section{ display: grid; } 
+#project2Section{ display: grid; } 
+#project3Section{ display: grid; } 
+#project4Section{ display: grid; } 
+#project5Section{ display: grid; } 
+#project6Section{ display: grid; } 
+#project7Section{ display: grid; } 
+#project8Section{ display: grid; } 
+
+#constructionProFullData{ display: none; }
+#travelProFullData{ display: none; }
+#skyLinkProFullData{ display: none; }
+#hotelProFullData{ display: none; }
+#weatherProFullData{ display: none; }
+#pharmacyProFullData{ display: none; }
+#clothifyProFullData{ display: none; }
+#mealProFullData{ display: none; }
+
+#hideProjectsBtn{ display: none; }
+#moreProjectsSection{ display: none; }
