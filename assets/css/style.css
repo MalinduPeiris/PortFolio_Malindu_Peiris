@@ -488,14 +488,15 @@ h4 {
     display: none;
 }
 
-#project1Section{ display: grid; } 
-#project2Section{ display: grid; } 
-#project3Section{ display: grid; } 
-#project4Section{ display: grid; } 
-#project5Section{ display: grid; } 
-#project6Section{ display: grid; } 
-#project7Section{ display: grid; } 
-#project8Section{ display: grid; } 
+#project1Section{ display: none; } 
+#project2Section{ display: none; } 
+#project3Section{ display: none; } 
+#project4Section{ display: none; } 
+#project5Section{ display: none; } 
+#project6Section{ display: none; } 
+#project7Section{ display: none; } 
+#project8Section{ display: none; } 
+#project9Section{ display: none; }
 
 #constructionProFullData{ display: none; }
 #travelProFullData{ display: none; }
@@ -505,6 +506,15 @@ h4 {
 #pharmacyProFullData{ display: none; }
 #clothifyProFullData{ display: none; }
 #mealProFullData{ display: none; }
+#restaurentAppFullData{ display: none; }
 
 #hideProjectsBtn{ display: none; }
 #moreProjectsSection{ display: none; }
+
+#project3ViewMore{
+    display: grid;
+}
+
+
+
+

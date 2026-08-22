@@ -16,14 +16,16 @@ function viewLessTechStack() {
 
 // more project details
 
+
 function viewMoreProject1() {
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
+
 
     document.getElementById("project1Section").style.display = "grid";
     document.getElementById("project1ViewMore").style.display = "none";
@@ -42,13 +44,13 @@ function ShowLessProject1() {
 }
 
 function viewMoreProject2() {
-    ShowLessProject1();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("project2Section").style.display = "grid";
     document.getElementById("project2ViewMore").style.display = "none";
@@ -67,13 +69,13 @@ function ShowLessProject2() {
 }
 
 function viewMoreProject3() {
-    ShowLessProject1();
-    ShowLessProject2();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("project3Section").style.display = "grid";
     document.getElementById("project3ViewMore").style.display = "none";
@@ -92,38 +94,38 @@ function ShowLessProject3() {
 }
 
 function viewMoreProject4() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("project4Section").style.display = "grid";
-    document.getElementById("project3ViewMoreBtn").style.display = "none";
-    document.getElementById("project3CloseBtn").style.display = "grid";
+    document.getElementById("project4ViewMoreBtn").style.display = "none";
+    document.getElementById("project4CloseBtn").style.display = "grid";
     document.getElementById("hotelProSimpleDiscription").style.display = "none";
     document.getElementById("hotelProFullData").style.display = "grid";
 }
 
 function showLessProject4() {
     document.getElementById("project4Section").style.display = "none";
-    document.getElementById("project3ViewMoreBtn").style.display = "grid";
-    document.getElementById("project3CloseBtn").style.display = "none";
+    document.getElementById("project4ViewMoreBtn").style.display = "grid";
+    document.getElementById("project4CloseBtn").style.display = "none";
     document.getElementById("hotelProSimpleDiscription").style.display = "grid";
     document.getElementById("hotelProFullData").style.display = "none";
     document.getElementById("projectCardDivsId4").style.transition = "1.2s";
 }
 
 function viewMoreProject5() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("project5Section").style.display = "grid";
     document.getElementById("project5ViewMoreBtn").style.display = "none";
@@ -142,13 +144,13 @@ function ShowLessProject5() {
 }
 
 function viewMoreProject6() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("project6Section").style.display = "grid";
     document.getElementById("project6ViewMoreBtn").style.display = "none";
@@ -167,13 +169,13 @@ function ShowLessProject6() {
 }
 
 function viewMoreProject7() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject8();
 
     document.getElementById("project7Section").style.display = "grid";
     document.getElementById("project7ViewMoreBtn").style.display = "none";
@@ -192,13 +194,13 @@ function ShowLessProject7() {
 }
 
 function viewMoreProject8() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
 
     document.getElementById("project8Section").style.display = "grid";
     document.getElementById("project8ViewMoreBtn").style.display = "none";
@@ -216,32 +218,66 @@ function ShowLessProject8() {
     document.getElementById("projectCardDivsId8").style.transition = "1.2s";
 }
 
+
+function viewMoreProject9() {
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject7();
+    // ShowLessProject8();
+    console.log("awa yakow");
+    
+
+    document.getElementById("project9Section").style.display = "grid";
+    document.getElementById("project9ViewMoreBtn").style.display = "none";
+    document.getElementById("project9CloseBtn").style.display = "grid";
+    document.getElementById("restaurentAppSimpleDiscription").style.display = "none";
+    document.getElementById("restaurentAppFullData").style.display = "grid";
+}
+
+function ShowLessProject9() {
+    document.getElementById("project9Section").style.display = "none";
+    document.getElementById("project9ViewMoreBtn").style.display = "grid";
+    document.getElementById("project9CloseBtn").style.display = "none";
+    document.getElementById("restaurentAppSimpleDiscription").style.display = "grid";
+    document.getElementById("restaurentAppFullData").style.display = "none";
+    document.getElementById("projectCardDivsId9").style.transition = "1.2s";
+}
+
+
+
 // view more and less project btns
 
 function btnMoreProject() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    console.log("btnMoreProject");
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
 
     document.getElementById("moreProjectsBtn").style.display = "none";
     document.getElementById("hideProjectsBtn").style.display = "grid";
     document.getElementById("moreProjectsSection").style.display = "grid";
+    document.getElementById("project3rdSection").style.display = "grid";
+
+
 }
 
 function btnHideProject() {
-    ShowLessProject1();
-    ShowLessProject2();
-    ShowLessProject3();
-    showLessProject4();
-    ShowLessProject5();
-    ShowLessProject6();
-    ShowLessProject7();
-    ShowLessProject8();
+    // ShowLessProject1();
+    // ShowLessProject2();
+    // ShowLessProject3();
+    // showLessProject4();
+    // ShowLessProject5();
+    // ShowLessProject6();
+    // ShowLessProject7();
+    // ShowLessProject8();
     document.getElementById("moreProjectsBtn").style.display = "grid";
     document.getElementById("hideProjectsBtn").style.display = "none";
     document.getElementById("moreProjectsSection").style.display = "none";
